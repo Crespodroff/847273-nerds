@@ -2,6 +2,7 @@
 
 * Студент: [Александр Дорофеев](https://up.htmlacademy.ru/htmlcss/22/user/847273).
 * Наставник: [Александр Карташов] (https://up.htmlacademy.ru/htmlcss/22/user/77080).
+* Наставник: [Александр =) Карташов] (https://up.htmlacademy.ru/htmlcss/22/user/77080).
 
 ---
 
