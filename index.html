@@ -8,14 +8,14 @@
 	<header class="main-header">
 	 <nav class="main-menu-navigation">
 		 <img src="img/header-logo.svg" width="215" height="180" alt="Логотип дизайн-студии Нердс">
-		<ul class="site-navigation">
-		  <li class="menuStudio"><a href="#">Студия</a></li>
-		  <li class="menuCustomer"><a href="#">Клиенты</a></li>
-		  <li class="menuShop"><a href="shop.html">Магазин</a></li>
-		  <li class="menuContact"><a href="#">Контакты</a></li>
+		<ul class="navigation">
+		  <li class="navigation-item active-item"><a href="#">Студия</a></li>
+		  <li class="navigation-item"><a href="#">Клиенты</a></li>
+		  <li class="navigation-item"><a href="#">Магазин</a></li>
+		  <li class="navigation-item"><a href="#">Контакты</a></li>
 		</ul>
-		<ul class="user-navigation">
-		  <li class="menuCart"><a href="#">Корзина</a></li>
+		<ul class="navigation">
+		  <li class="menu-Cart"><a href="#">Корзина</a></li>
 		</ul>
 	 </nav>
 	</header>	
@@ -23,60 +23,74 @@
   <main class="container">
    
 	<section class="slider">
-	  <ul class="ul-slider">
-		<li class="slide-1">slide-1</li>
-		<li class="slide-2">slide-2</li>
-		<li class="slide-3">slide-3</li>
+	  <ul class="slider-list">
+		<li class="slide">
+			<h3 class="slider-title">Долго,дорого скрупулезно.</h3>
+			<p class="slider-description">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+			<img src="img/slide.svg" alt="Слайд1">
+			<a class="slider-link" href="#">УЗНАТЬ БОЛЬШЕ<a/>
+		</li>
+		<li class="slide">
+			<h3 class="slider-title">Любим математику как никто другой.</h3>
+			<p class="slider-description">Никакого креатива, только математические формулы для расчёта идеальных пропорций.</p>
+			<img src="img/slide2.svg" alt="Слайд2">
+			<a class="slider-link" href="#">УЗНАТЬ БОЛЬШЕ</a>
+		</li>
+		<li class="slide">
+			<h3 class="slider-title">Только ночь, только хардкор.</h3>
+			<p class="slider-description">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+			<img src="img/slide3.svg" alt="Слайд3">
+			<a class="slider-link" href="#">УЗНАТЬ БОЛЬШЕ</a>		
 	  </ul>
 	</section>
 	
 	<section class="services">
-	<ul class="services-web-site">
-	  <li class="services-web-site-list"><h3 class="services-web-site-title">ВЕБ-САЙТЫ</h3>
-	    Мир никогда не будет прежним после того как увидит ваш сайт!
-	    <a class="services-web-site-link" href="shop.html">ЗАКАЗАТЬ</a>
+	<ul class="services-list">
+	  <li class="services-item">
+	   <h3 class="services-title">ВЕБ-САЙТЫ</h3>
+	    <p class="services-description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+	    <a class="services-link" href="#">ЗАКАЗАТЬ</a>
 	  </li>
-	</ul>
-	<ul class="services-application">
-	  <li class="services-application-list"><h3 class="service-application-title">ПРИЛОЖЕНИЯ</h3>
-	   Покорите топ-10 приложений в AppStore и Google Play
-	   <a class="services-application-link" href="shop.html">ЗАКАЗАТЬ</a>
+	  <li class="services-item">
+	   <h3 class="service-title">ПРИЛОЖЕНИЯ</h3>
+	   <p class="services-description">Покорите топ-10 приложений в AppStore и Google Play</p>
+	   <a class="services-link" href="#">ЗАКАЗАТЬ</a>
 	  </li>
-    </ul>
-	<ul class="services-presentation">
-	  <li class="services-presentation-list"><h3 class="services-presentation-list">ПРЕЗЕНТАЦИИ</h3>
-	  Вы даже не подозреваете насколько вы изумительны
-	  <a class="services-presentation-link" href="shop.html">ЗАКАЗАТЬ</a>
+	  <li class="services-item">
+	   <h3 class="services-title">ПРЕЗЕНТАЦИИ</h3>
+	   <p class="services-description">Вы даже не подозреваете насколько вы изумительны</p>
+	   <a class="services-link" href="#">ЗАКАЗАТЬ</a>
+	  </li> 
 	</section>
 	
 	
-	<article class="features.article">
-		<section class="features1">
-		<b class="features1.b">Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
+	<article class="features">
+		<section class="features-info">
+		<b class="features-slogan">Мы - маленькая, но гордая дизайн-студия из Краснодара.</b>
 		Исповедуем принципы минимализма и чистоты. Ставим математический расчёт превыше креатива. Работаем не покладая рук, как роботы.
-		<b class="features1.b">ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</b>
-		<ul class="features1.ul">
-			<li class="features1.li">Bеб-сайтов любой сложности</li>
-			<li class="features1.li">Мобильных приложений для iOS и Android</li>
-			<li class="features1.li">Слайдшоу и видео для корпоративных презентаций</li>
+		<b class="features-order">ВЫПОЛНЯЕМ ЗАКАЗЫ НА РАЗРАБОТКУ:</b>
+		<ul class="features-order-list">
+			<li class="features-order-description">Bеб-сайтов любой сложности</li>
+			<li class="features-order-description">Мобильных приложений для iOS и Android</li>
+			<li class="features-order-description">Слайдшоу и видео для корпоративных презентаций</li>
 		</ul>
 		</section>
 	
-		<section class="features2">
+		<section class="features-numbers">
 		<img src="img_2/main_logo.svg" alt="Логотип студии цветной">
-		<b class="features2.b">С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЁМ:</b>
-		<dl class="features2.dl">
-			<dt class="features2.dl">146%</dt>
-				<dd class="features2.dd">Уровень самоотдачи</dd>
-			<dt class="features2.dl">100%</dt>
-				<dd class="features2.dd">Соблюдение сроков</dd>
-			<dt class="features3.dl">50%</dt>
-				<dd class="features3.dd">Минимальная предоплата</dd>
+		<b class="features-date">С 2004 ГОДА ЛЮБИМ ТОЧНОСТЬ ВО ВСЁМ:</b>
+		<dl class="features-numbers-list">
+			<dt class="features-numbers-list-description">Уровень самоотдачи</dt>
+				<dd class="features-numbers-list-percentage">146%</dd>
+			<dt class="features-numbers-list-description">Соблюдение сроков</dt>
+				<dd class="features-numbers-list-percentage">100%</dd>
+			<dt class="features-numbers-list-description">Минимальная предоплата</dt>
+				<dd class="features-numbers-list-percentage">50%</dd>
 		</dl>			
 		</section>
 	</article>
 	
-	<section class="companies logo">
+	<section class="companies-logo">
 	<a href="#"><img src="img/html_academy.svg" alt = "Логотип html academy"> 
 	</a>
 	<a href="#"><img src="img/borodinsky.svg" alt = "Логотип borodinsky"> 
@@ -88,24 +102,23 @@
  	</section>
 	
 	<div class="contacts">
-	<h3 class="contacts.h3">NЁRDS DESIGN STUDIO</h3>
-	<p class="contacts.p">191186, Cанкт-Петербург,
-	ул.Б.Конюшенная, д.19/8
-	тел.+7(812)275-75-75
-	</p>
-	<a href="modal_window_write_to_us.html">Напишите нам</a>
+	  <h3 class="contacts-title">NЁRDS DESIGN STUDIO</h3>
+	  <p class="contacts-text">191186, Cанкт-Петербург,
+	   ул.Б.Конюшенная, д.19/8</p>
+	  <p class='contacts-text>тел.+7(812)275-75-75
+	   </p>
+	   <a href="modal_window_write_to_us.html">Напишите нам</a>
 	
     <!--карта-->
 	</div>
   </main>
  
-  <footer>
-  <div class = "footer-social">
-  <ul class="footer-social.ul">
-          <li class="social-button.li"><a class="social-button.a" href="#">Вконтакте</a></li>
-          <li class="social-button.li"><a class="social-button.a" href="#">Фейсбук</a></li>
-          <li class="social-button.li"><a class="social-button.a" href="#">Инстаграм</a></li>
-        </ul>
-  <b class="footer.b">Давайте дружить, это выгодно!</b>
-  <p class="footer.p">Скидка 10% для друзей из социальных сетей</p>
+  <footer class="main-footer">
+   <ul class="footer-social-list">
+         <li class="social-button"><a class="social-button" href="#">Вконтакте</a></li>
+         <li class="social-button"><a class="social-button" href="#">Фейсбук</a></li>
+         <li class="social-button"><a class="social-button" href="#">Инстаграм</a></li>
+   </ul>
+   <b class="footer-slogan">Давайте дружить, это выгодно!</b>
+   <p class="footer-text">Скидка 10% для друзей из социальных сетей</p>
 </html>
